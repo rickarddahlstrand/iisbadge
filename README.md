@@ -3,7 +3,7 @@ The IIS Internetdagarna Badge project.
 
 Here is a collection of the Eagle source files for the IIS Internetdagarna badge projekt.
 
-All the parts needed can be ordered from Seeedstudio and their excellent OPL:
+All the parts can be ordered from Seeedstudio and their excellent OPL:
 http://www.seeedstudio.com/depot/OPLopen-parts-library-catalog-c-136_138/?ref=crumb
 
 * 1 x DIP Toggle Switch;6P-2.54-L9.0*W3.5*H3.2mm(311030004)
