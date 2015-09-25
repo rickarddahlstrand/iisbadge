@@ -2018,7 +2018,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="5" library="Connector-new" deviceset="BAT-HOLDER" device="-2032"/>
 <part name="1" library="Discrete-new" deviceset="LED" device="'5MM'"/>
 <part name="2" library="Discrete-new" deviceset="LED" device="'5MM'"/>
-<part name="FLUX---&gt;" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W"/>
+<part name="RD@IIS.SE" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W"/>
 <part name="CAPACITOR" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2026,7 +2026,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 <part name="4" library="wirepad" deviceset="3,81/1,4" device=""/>
 <part name="3" library="Seeed-OPL-Switch" deviceset="DIP-TOGGLE-SWITCH-2CH-(2X3P-2.54-90D)" device="'90D'"/>
-<part name="GEEKPORT" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
+<part name="GEEKPRT" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
 </parts>
 <sheets>
 <sheet>
@@ -2036,7 +2036,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="5" gate="G$1" x="-68.58" y="-17.78" rot="R270"/>
 <instance part="1" gate="LED" x="0" y="16.51"/>
 <instance part="2" gate="LED" x="0" y="5.08"/>
-<instance part="FLUX---&gt;" gate="G$1" x="-35.56" y="-16.51" rot="R90"/>
+<instance part="RD@IIS.SE" gate="G$1" x="-35.56" y="-16.51" rot="R90"/>
 <instance part="CAPACITOR" gate="G$1" x="-48.26" y="-16.51" rot="R90"/>
 <instance part="GND1" gate="1" x="-21.59" y="-40.64"/>
 <instance part="GND2" gate="1" x="12.7" y="-5.08"/>
@@ -2044,7 +2044,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="FRAME1" gate="G$1" x="-115.57" y="-95.25"/>
 <instance part="4" gate="1" x="-11.43" y="-12.7"/>
 <instance part="3" gate="G$1" x="-41.91" y="16.51"/>
-<instance part="GEEKPORT" gate="G$1" x="-35.56" y="-40.64" rot="R90"/>
+<instance part="GEEKPRT" gate="G$1" x="-35.56" y="-40.64" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -2066,7 +2066,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GEEKPORT" gate="G$1" pin="1"/>
+<pinref part="GEEKPRT" gate="G$1" pin="1"/>
 <wire x1="-33.02" y1="-33.02" x2="-33.02" y2="-26.67" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="-26.67" x2="-21.59" y2="-26.67" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -2112,14 +2112,14 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <net name="N$6" class="0">
 <segment>
 <pinref part="3" gate="G$1" pin="CH2B"/>
-<pinref part="FLUX---&gt;" gate="G$1" pin="2"/>
+<pinref part="RD@IIS.SE" gate="G$1" pin="2"/>
 <wire x1="-35.56" y1="13.97" x2="-35.56" y2="-11.43" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="FLUX---&gt;" gate="G$1" pin="1"/>
-<pinref part="GEEKPORT" gate="G$1" pin="2"/>
+<pinref part="RD@IIS.SE" gate="G$1" pin="1"/>
+<pinref part="GEEKPRT" gate="G$1" pin="2"/>
 <wire x1="-35.56" y1="-21.59" x2="-35.56" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -2128,7 +2128,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="CAPACITOR" gate="G$1" pin="1"/>
 <wire x1="-48.26" y1="-21.59" x2="-48.26" y2="-26.67" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="-26.67" x2="-38.1" y2="-26.67" width="0.1524" layer="91"/>
-<pinref part="GEEKPORT" gate="G$1" pin="3"/>
+<pinref part="GEEKPRT" gate="G$1" pin="3"/>
 <wire x1="-38.1" y1="-26.67" x2="-38.1" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
