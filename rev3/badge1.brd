@@ -203,7 +203,7 @@
 <vertex x="6.25" y="34.375"/>
 <vertex x="6.25" y="37.5"/>
 </polygon>
-<text x="37.5" y="3.125" size="1.016" layer="1" font="vector">http://tinyurl.com/iisbadge</text>
+<text x="30.55589375" y="38.0923625" size="1.27" layer="21" font="fixed">j.mp/iisbadge</text>
 </plain>
 <libraries>
 <library name="Discrete-new">
@@ -383,74 +383,6 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <library name="logo">
 <description>&lt;b&gt;Electronic and CadSoft EAGLE logos&lt;/b&gt;&lt;p&gt;</description>
 <packages>
-<package name="RECYCLING_10.00">
-<description>&lt;b&gt;Logo recycling 10 mm&lt;/b&gt;</description>
-<polygon width="0.0546" layer="21" spacing="0.052">
-<vertex x="0.3821" y="5.9498"/>
-<vertex x="2.5109" y="6.1681"/>
-<vertex x="3.4389" y="4.1485"/>
-<vertex x="2.893" y="4.476"/>
-<vertex x="2.4017" y="3.7118" curve="7.361249"/>
-<vertex x="1.8559" y="2.7293" curve="41.220199"/>
-<vertex x="1.7467" y="1.4192"/>
-<vertex x="0.3821" y="3.6026" curve="-2.083239"/>
-<vertex x="0.2183" y="3.8755" curve="-59.842776"/>
-<vertex x="0.2183" y="4.476"/>
-<vertex x="0.8734" y="5.6223"/>
-</polygon>
-<polygon width="0.0546" layer="21" spacing="0.052">
-<vertex x="1.7467" y="7.0415"/>
-<vertex x="2.893" y="9.0611" curve="-39.642148"/>
-<vertex x="3.2751" y="9.3886" curve="-41.561018"/>
-<vertex x="4.1485" y="9.3886" curve="-28.422514"/>
-<vertex x="4.6943" y="9.0066" curve="-18.378234"/>
-<vertex x="5.131" y="8.2969"/>
-<vertex x="3.7118" y="5.8952"/>
-</polygon>
-<polygon width="0.0546" layer="21" spacing="0.052">
-<vertex x="3.9847" y="9.6616"/>
-<vertex x="6.7686" y="9.7162" curve="-55.336365"/>
-<vertex x="7.3144" y="9.4432"/>
-<vertex x="7.9694" y="8.2969"/>
-<vertex x="8.5153" y="8.5699"/>
-<vertex x="7.6419" y="6.6048"/>
-<vertex x="5.3493" y="6.8231"/>
-<vertex x="6.0044" y="7.2052"/>
-<vertex x="5.131" y="8.679" curve="24.456143"/>
-<vertex x="4.4214" y="9.4432" curve="21.860923"/>
-<vertex x="3.9301" y="9.6616"/>
-</polygon>
-<polygon width="0.0546" layer="21" spacing="0.052">
-<vertex x="6.8231" y="5.7314"/>
-<vertex x="8.7882" y="6.8777"/>
-<vertex x="9.8799" y="5.0764" curve="-41.196378"/>
-<vertex x="10.0437" y="4.2031" curve="-38.14986"/>
-<vertex x="9.7707" y="3.7118" curve="-30.610228"/>
-<vertex x="9.0066" y="3.3297" curve="-22.519115"/>
-<vertex x="8.1878" y="3.3297"/>
-</polygon>
-<polygon width="0.0546" layer="21" spacing="0.052">
-<vertex x="10.0437" y="3.7118"/>
-<vertex x="8.7336" y="1.31" curve="-64.065359"/>
-<vertex x="7.8603" y="0.8188"/>
-<vertex x="6.7686" y="0.8188"/>
-<vertex x="6.7686" y="0.2183"/>
-<vertex x="5.4585" y="2.0197"/>
-<vertex x="6.7686" y="3.7664"/>
-<vertex x="6.7686" y="3.0568"/>
-<vertex x="7.8603" y="3.0568" curve="10.388936"/>
-<vertex x="9.0611" y="3.1659" curve="37.331392"/>
-</polygon>
-<polygon width="0.0546" layer="21" spacing="0.052">
-<vertex x="5.0764" y="0.8734"/>
-<vertex x="2.7838" y="0.8734" curve="-33.399066"/>
-<vertex x="2.238" y="1.0371" curve="-39.464382"/>
-<vertex x="1.9105" y="1.4738" curve="-34.274751"/>
-<vertex x="1.9105" y="2.4017" curve="-22.325604"/>
-<vertex x="2.2926" y="3.1114"/>
-<vertex x="5.0764" y="3.1114"/>
-</polygon>
-</package>
 <package name="MUELLTONNE_10.00">
 <description>&lt;b&gt;Logo trash / Mülltonne 10 mm&lt;/b&gt;</description>
 <wire x1="0.915" y1="0.4991" x2="10.4804" y2="10.3141" width="0.1664" layer="21"/>
@@ -485,6 +417,44 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <rectangle x1="2.8696" y1="8.4218" x2="7.7564" y2="8.7753" layer="21"/>
 <rectangle x1="5.0323" y1="6.4463" x2="6.7166" y2="7.0285" layer="21"/>
 <rectangle x1="3.9925" y1="1.2685" x2="4.5748" y2="1.8299" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="OSHW">
+<packages>
+<package name="OSHW_6X200_NOTEXT">
+<wire x1="2.4384" y1="1.4224" x2="1.9304" y2="0.2794" width="0.1524" layer="21"/>
+<wire x1="1.9304" y1="0.2794" x2="1.6764" y2="0.4318" width="0.1524" layer="21"/>
+<wire x1="1.6764" y1="0.4318" x2="1.0668" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.0668" y1="0" x2="0.6096" y2="0.4826" width="0.1524" layer="21"/>
+<wire x1="0.6096" y1="0.4826" x2="1.016" y2="1.0922" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="1.778" x2="0" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="1.905" x2="0" y2="2.5654" width="0.1524" layer="21"/>
+<wire x1="0" y1="2.5654" x2="0.762" y2="2.7178" width="0.1524" layer="21"/>
+<wire x1="1.0414" y1="3.3528" x2="0.5842" y2="4.0132" width="0.1524" layer="21"/>
+<wire x1="0.5842" y1="4.0132" x2="1.0668" y2="4.4704" width="0.1524" layer="21"/>
+<wire x1="1.0668" y1="4.4704" x2="1.7272" y2="4.0132" width="0.1524" layer="21"/>
+<wire x1="2.3622" y1="4.2672" x2="2.4892" y2="5.08" width="0.1524" layer="21"/>
+<wire x1="2.4892" y1="5.08" x2="3.175" y2="5.08" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="5.08" x2="3.302" y2="4.2672" width="0.1524" layer="21"/>
+<wire x1="3.937" y1="4.0132" x2="4.5974" y2="4.4704" width="0.1524" layer="21"/>
+<wire x1="4.5974" y1="4.4704" x2="5.08" y2="4.0132" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="4.0132" x2="4.6228" y2="3.3528" width="0.1524" layer="21"/>
+<wire x1="4.9022" y1="2.7178" x2="5.6642" y2="2.5654" width="0.1524" layer="21"/>
+<wire x1="5.6642" y1="2.5654" x2="5.6642" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="5.6642" y1="1.905" x2="4.9022" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="4.6482" y1="1.0922" x2="5.08" y2="0.4826" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0.4826" x2="4.5974" y2="0" width="0.1524" layer="21"/>
+<wire x1="4.5974" y1="0" x2="3.9878" y2="0.4318" width="0.1524" layer="21"/>
+<wire x1="3.9878" y1="0.4318" x2="3.7338" y2="0.2794" width="0.1524" layer="21"/>
+<wire x1="3.7338" y1="0.2794" x2="3.2512" y2="1.4224" width="0.1524" layer="21"/>
+<wire x1="2.4384" y1="1.4478" x2="3.2512" y2="1.4478" width="0.1524" layer="21" curve="-308.267286"/>
+<wire x1="1.0245" y1="1.1004" x2="0.7637" y2="1.774" width="0.1524" layer="21" curve="-19.673848"/>
+<wire x1="0.7779" y1="2.7179" x2="1.0435" y2="3.3392" width="0.1524" layer="21" curve="-18.371859"/>
+<wire x1="1.736" y1="4.0223" x2="2.3432" y2="4.2689" width="0.1524" layer="21" curve="-17.83212"/>
+<wire x1="3.3155" y1="4.2736" x2="3.9464" y2="4.0175" width="0.1524" layer="21" curve="-18.449318"/>
+<wire x1="4.6199" y1="3.3487" x2="4.8997" y2="2.7179" width="0.1524" layer="21" curve="-19.303177"/>
+<wire x1="4.9045" y1="1.7692" x2="4.6484" y2="1.0909" width="0.1524" layer="21" curve="-20.344696"/>
 </package>
 </packages>
 </library>
@@ -673,12 +643,12 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <element name="4" library="Discrete-new" package="LED2-2.54-D5.0MM" value="" x="7.72024375" y="27.902646875" rot="R90"/>
 <element name="5" library="Discrete-new" package="LED2-2.54-D5.0MM" value="" x="42.75478125" y="27.944596875" rot="R90"/>
 <element name="RD@IIS.SE" library="SparkFun-Passives" package="AXIAL-0.4" value="" x="12.7" y="29.895" rot="R270"/>
-<element name="20150925" library="SparkFun-Passives" package="AXIAL-0.4" value="" x="15.24" y="29.895" rot="R270"/>
-<element name="1" library="wirepad" package="3,81/1,4" value="" x="25.025559375" y="33.660846875"/>
+<element name="20151014" library="SparkFun-Passives" package="AXIAL-0.4" value="" x="15.24" y="29.895" rot="R270"/>
+<element name="6" library="wirepad" package="3,81/1,4" value="" x="25.025559375" y="33.660846875"/>
 <element name="3" library="Seeed-OPL-Switch" package="SW6-2.54-9.0X3.5X3.2MM-90D" value="" x="25.029028125" y="6.343271875"/>
 <element name="GEEKPRT" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="10.16" y="40.4301"/>
-<element name="U$2" library="logo" package="RECYCLING_10.00" value="" x="53.125" y="28.125"/>
-<element name="U$3" library="logo" package="MUELLTONNE_10.00" value="" x="50" y="15.625"/>
+<element name="U$3" library="logo" package="MUELLTONNE_10.00" value="" x="28.311315625" y="25.7688"/>
+<element name="U$1" library="OSHW" package="OSHW_6X200_NOTEXT" value="" x="39.996578125" y="31.45684375"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -686,48 +656,92 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <contactref element="5" pad="-"/>
 <contactref element="2" pad="-"/>
 <contactref element="GEEKPRT" pad="1"/>
-<wire x1="25.097659375" y1="18.601359375" x2="42.75478125" y2="29.214396875" width="0" layer="19" extent="1-1"/>
-<wire x1="7.72024375" y1="29.172446875" x2="25.097659375" y2="18.601359375" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="40.5571" x2="7.72024375" y2="29.172446875" width="0" layer="19" extent="1-1"/>
+<wire x1="7.747" y1="38.1" x2="7.747" y2="29.21" width="0.127" layer="1"/>
+<wire x1="10.16" y1="40.513" x2="7.747" y2="38.1" width="0.127" layer="1"/>
+<wire x1="7.747" y1="29.21" x2="7.72024375" y2="29.172446875" width="0.127" layer="1"/>
+<wire x1="10.16" y1="40.513" x2="10.16" y2="40.5571" width="0.127" layer="1"/>
+<wire x1="35.687" y1="29.21" x2="42.672" y2="29.21" width="0.127" layer="1"/>
+<wire x1="25.146" y1="18.669" x2="35.687" y2="29.21" width="0.127" layer="1"/>
+<wire x1="42.672" y1="29.21" x2="42.75478125" y2="29.214396875" width="0.127" layer="1"/>
+<wire x1="25.146" y1="18.669" x2="25.097659375" y2="18.601359375" width="0.127" layer="1"/>
+<wire x1="14.605" y1="29.083" x2="7.747" y2="29.083" width="0.127" layer="1"/>
+<wire x1="25.019" y1="18.669" x2="14.605" y2="29.083" width="0.127" layer="1"/>
+<wire x1="7.747" y1="29.083" x2="7.72024375" y2="29.172446875" width="0.127" layer="1"/>
+<wire x1="25.019" y1="18.669" x2="25.097659375" y2="18.601359375" width="0.127" layer="1"/>
+<polygon width="0.4064" layer="1">
+<vertex x="-9.375" y="50"/>
+<vertex x="56.25" y="50"/>
+<vertex x="56.25" y="-3.125"/>
+<vertex x="-9.375" y="-3.125"/>
+</polygon>
+<polygon width="0.4064" layer="16">
+<vertex x="-12.5" y="53.125"/>
+<vertex x="56.25" y="53.125"/>
+<vertex x="56.25" y="50"/>
+<vertex x="56.25" y="-6.25"/>
+<vertex x="-12.5" y="-6.25"/>
+</polygon>
 </signal>
 <signal name="N$1">
 <contactref element="3" pad="COM2"/>
 <contactref element="4" pad="+"/>
-<wire x1="25.029028125" y1="7.993271875" x2="7.72024375" y2="26.632846875" width="0" layer="19" extent="1-1"/>
+<wire x1="25.019" y1="9.271" x2="25.019" y2="8.001" width="0.127" layer="1"/>
+<wire x1="7.747" y1="26.543" x2="25.019" y2="9.271" width="0.127" layer="1"/>
+<wire x1="25.019" y1="8.001" x2="25.029028125" y2="7.993271875" width="0.127" layer="1"/>
+<wire x1="7.747" y1="26.543" x2="7.72024375" y2="26.632846875" width="0.127" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="3" pad="COM1"/>
 <contactref element="5" pad="+"/>
-<wire x1="25.029028125" y1="4.693271875" x2="42.75478125" y2="26.674796875" width="0" layer="19" extent="1-1"/>
+<wire x1="25.527" y1="4.699" x2="25.146" y2="4.699" width="0.127" layer="1"/>
+<wire x1="42.672" y1="21.844" x2="25.527" y2="4.699" width="0.127" layer="1"/>
+<wire x1="42.672" y1="26.67" x2="42.672" y2="21.844" width="0.127" layer="1"/>
+<wire x1="25.146" y1="4.699" x2="25.029028125" y2="4.693271875" width="0.127" layer="1"/>
+<wire x1="42.672" y1="26.67" x2="42.75478125" y2="26.674796875" width="0.127" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="3" pad="CH1A"/>
 <contactref element="2" pad="+2"/>
 <contactref element="2" pad="+1"/>
 <contactref element="3" pad="CH2A"/>
-<wire x1="18.366659375" y1="18.601359375" x2="31.828659375" y2="18.601359375" width="0" layer="19" extent="1-1"/>
-<wire x1="22.489028125" y1="7.993271875" x2="18.366659375" y2="18.601359375" width="0" layer="19" extent="1-1"/>
-<wire x1="22.489028125" y1="4.693271875" x2="22.489028125" y2="7.993271875" width="0" layer="19" extent="1-1"/>
+<wire x1="22.479" y1="7.874" x2="22.479" y2="4.699" width="0.127" layer="1"/>
+<wire x1="22.479" y1="4.699" x2="22.489028125" y2="4.693271875" width="0.127" layer="1"/>
+<wire x1="22.479" y1="7.874" x2="22.489028125" y2="7.993271875" width="0.127" layer="1"/>
+<wire x1="18.415" y1="12.065" x2="18.415" y2="18.542" width="0.127" layer="16"/>
+<wire x1="22.479" y1="8.001" x2="18.415" y2="12.065" width="0.127" layer="16"/>
+<wire x1="18.415" y1="18.542" x2="18.366659375" y2="18.601359375" width="0.127" layer="16"/>
+<wire x1="22.479" y1="8.001" x2="22.489028125" y2="7.993271875" width="0.127" layer="16"/>
+<wire x1="18.415" y1="18.669" x2="31.75" y2="18.669" width="0.127" layer="16"/>
+<wire x1="31.75" y1="18.669" x2="31.828659375" y2="18.601359375" width="0.127" layer="16"/>
+<wire x1="18.415" y1="18.669" x2="18.366659375" y2="18.601359375" width="0.127" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="3" pad="CH1B"/>
-<contactref element="20150925" pad="P$2"/>
-<wire x1="27.569028125" y1="4.693271875" x2="15.24" y2="24.815" width="0" layer="19" extent="1-1"/>
+<contactref element="20151014" pad="P$2"/>
+<wire x1="26.289" y1="4.699" x2="27.559" y2="4.699" width="0.127" layer="16"/>
+<wire x1="23.876" y1="7.112" x2="26.289" y2="4.699" width="0.127" layer="16"/>
+<wire x1="22.098" y1="7.112" x2="23.876" y2="7.112" width="0.127" layer="16"/>
+<wire x1="15.24" y1="13.97" x2="22.098" y2="7.112" width="0.127" layer="16"/>
+<wire x1="15.24" y1="24.815" x2="15.24" y2="13.97" width="0.127" layer="16"/>
+<wire x1="27.559" y1="4.699" x2="27.569028125" y2="4.693271875" width="0.127" layer="16"/>
 </signal>
 <signal name="N$6">
 <contactref element="3" pad="CH2B"/>
 <contactref element="RD@IIS.SE" pad="P$2"/>
-<wire x1="27.569028125" y1="7.993271875" x2="12.7" y2="24.815" width="0" layer="19" extent="1-1"/>
+<wire x1="26.797" y1="8.001" x2="27.559" y2="8.001" width="0.127" layer="1"/>
+<wire x1="12.7" y1="22.098" x2="26.797" y2="8.001" width="0.127" layer="1"/>
+<wire x1="12.7" y1="24.815" x2="12.7" y2="22.098" width="0.127" layer="1"/>
+<wire x1="27.559" y1="8.001" x2="27.569028125" y2="7.993271875" width="0.127" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="RD@IIS.SE" pad="P$1"/>
 <contactref element="GEEKPRT" pad="2"/>
-<wire x1="12.7" y1="40.3031" x2="12.7" y2="34.975" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="40.3031" x2="12.7" y2="34.975" width="0.127" layer="1"/>
 </signal>
 <signal name="N$7">
-<contactref element="20150925" pad="P$1"/>
+<contactref element="20151014" pad="P$1"/>
 <contactref element="GEEKPRT" pad="3"/>
-<wire x1="15.24" y1="40.5571" x2="15.24" y2="34.975" width="0" layer="19" extent="1-1"/>
+<wire x1="15.24" y1="40.5571" x2="15.24" y2="34.975" width="0.127" layer="1"/>
 </signal>
 </signals>
 </board>

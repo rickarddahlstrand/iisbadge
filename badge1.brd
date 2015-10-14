@@ -203,7 +203,7 @@
 <vertex x="6.25" y="34.375"/>
 <vertex x="6.25" y="37.5"/>
 </polygon>
-<text x="28.996834375" y="38.179075" size="1.016" layer="21" font="fixed">tinyurl.com/iisbadge</text>
+<text x="30.55589375" y="38.0923625" size="1.27" layer="21" font="fixed">j.mp/iisbadge</text>
 </plain>
 <libraries>
 <library name="Discrete-new">
@@ -643,8 +643,8 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <element name="4" library="Discrete-new" package="LED2-2.54-D5.0MM" value="" x="7.72024375" y="27.902646875" rot="R90"/>
 <element name="5" library="Discrete-new" package="LED2-2.54-D5.0MM" value="" x="42.75478125" y="27.944596875" rot="R90"/>
 <element name="RD@IIS.SE" library="SparkFun-Passives" package="AXIAL-0.4" value="" x="12.7" y="29.895" rot="R270"/>
-<element name="20150925" library="SparkFun-Passives" package="AXIAL-0.4" value="" x="15.24" y="29.895" rot="R270"/>
-<element name="1" library="wirepad" package="3,81/1,4" value="" x="25.025559375" y="33.660846875"/>
+<element name="20151014" library="SparkFun-Passives" package="AXIAL-0.4" value="" x="15.24" y="29.895" rot="R270"/>
+<element name="6" library="wirepad" package="3,81/1,4" value="" x="25.025559375" y="33.660846875"/>
 <element name="3" library="Seeed-OPL-Switch" package="SW6-2.54-9.0X3.5X3.2MM-90D" value="" x="25.029028125" y="6.343271875"/>
 <element name="GEEKPRT" library="SparkFun-Connectors" package="1X03_LOCK" value="" x="10.16" y="40.4301"/>
 <element name="U$3" library="logo" package="MUELLTONNE_10.00" value="" x="28.311315625" y="25.7688"/>
@@ -717,7 +717,7 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 </signal>
 <signal name="N$5">
 <contactref element="3" pad="CH1B"/>
-<contactref element="20150925" pad="P$2"/>
+<contactref element="20151014" pad="P$2"/>
 <wire x1="26.289" y1="4.699" x2="27.559" y2="4.699" width="0.127" layer="16"/>
 <wire x1="23.876" y1="7.112" x2="26.289" y2="4.699" width="0.127" layer="16"/>
 <wire x1="22.098" y1="7.112" x2="23.876" y2="7.112" width="0.127" layer="16"/>
@@ -739,7 +739,7 @@ Yageo CFR series &lt;a href="http://www.yageo.com/pdf/yageo/Leaded-R_CFR_2008.pd
 <wire x1="12.7" y1="40.3031" x2="12.7" y2="34.975" width="0.127" layer="1"/>
 </signal>
 <signal name="N$7">
-<contactref element="20150925" pad="P$1"/>
+<contactref element="20151014" pad="P$1"/>
 <contactref element="GEEKPRT" pad="3"/>
 <wire x1="15.24" y1="40.5571" x2="15.24" y2="34.975" width="0.127" layer="1"/>
 </signal>
