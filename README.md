@@ -15,3 +15,5 @@ http://www.seeedstudio.com/depot/OPLopen-parts-library-catalog-c-136_138/?ref=cr
 Needed for the geekprt:
 * 1 x DIP Black Male Header VERT;(320020010)
 * 2 x DIP RES 100R-5%-1/4W(301020017)
+
+License: CC BY-NC-SA 3.0
