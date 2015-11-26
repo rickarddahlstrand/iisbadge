@@ -16,11 +16,9 @@ Needed for the geekprt:
 * 1 x DIP Black Male Header VERT;(320020010)
 * 2 x DIP RES 100R-5%-1/4W(301020017)
 
+<img src="https://github.com/rickarddahlstrand/iisbadge/raw/master/geekprt.gif">
+<br>
+<a href="https://github.com/rickarddahlstrand/iisbadge/raw/master/intdagarnapulseheart.ino">Code example for this here!</a>
+
 License: CC BY-NC-SA 3.0
 
-<script src="http://vjs.zencdn.net/4.0/video.js"></script>
-
-<video id="pelican-installation" class="video-js vjs-default-skin" controls
-preload="auto" width="683" height="384" data-setup="{}">
-<source src="/static/geekprt.mp4" type='video/mp4'>
-</video>
