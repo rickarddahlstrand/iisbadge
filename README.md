@@ -17,3 +17,10 @@ Needed for the geekprt:
 * 2 x DIP RES 100R-5%-1/4W(301020017)
 
 License: CC BY-NC-SA 3.0
+
+<script src="http://vjs.zencdn.net/4.0/video.js"></script>
+
+<video id="pelican-installation" class="video-js vjs-default-skin" controls
+preload="auto" width="683" height="384" data-setup="{}">
+<source src="/static/geekprt.mp4" type='video/mp4'>
+</video>
